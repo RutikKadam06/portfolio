@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rutik Kadam | Web Developer Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header>
+        <div class="container">
+            <nav>
+                <a href="#" class="logo">Rutik<span>Kadam</span></a>
+
+                <div class="nav-links" id="navLinks">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#portfolio">Portfolio</a>
+                    <a href="#contact">Contact</a>
+                </div>
+
+                <div class="mobile-toggle" id="mobileToggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Hi, I'm <span class="highlight">Rutik Kadam</span></h1>
+                <h2>Frontend Web Developer</h2>
+                <p>I create responsive, modern, and user-friendly websites and web applications. With expertise in HTML, CSS, JavaScript,IOT and SQL, I bring ideas to life in the browser.</p>
+                <div class="btn-container">
+                    <a href="#portfolio" class="btn">View My Work</a>
+                    <a href="rutik kadam cv (1).pdf" class="btn" download>Download Resume</a>
+                    <a href="#contact" class="btn btn-outline">Get In Touch</a>
+                </div>
+
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-github"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-codepen"></i></a>
+                </div>
+            </div>
+
+            <div class="hero-image">
+                <img src="images/rutik image.jpeg" alt="Rutik Kadam">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Hello! I'm Rutik Kadam, a passionate Computer Science student with strong knowledge of HTML, CSS, JavaScript, IOT and SQL. I love building clean, responsive, and user-friendly web applications.</p>
+                    <p>My approach focuses on clean code, responsive design, and excellent user experience. I'm constantly learning new technologies and staying up-to-date with the latest web development trends.</p>
+                    <p>When I'm not coding, you can find me exploring new frameworks, contributing to projects, or sharing knowledge through tutorials.</p>
+                    <a href="#contact" class="btn">Hire Me</a>
+                </div>
+
+                <div class="skills">
+                    <h3>My Skills</h3>
+
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>HTML/CSS</span>
+                            <span>95%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-level" style="width: 95%;"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>JavaScript</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-level" style="width: 90%;"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>SQL</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-level" style="width: 85%;"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>Inter of Things (IoT)</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-level" style="width: 80%;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio">
+        <div class="container">
+            <h2>My Portfolio</h2>
+
+            <div class="portfolio-filter">
+                <button class="filter-btn active" data-filter="all">All Projects</button>
+                <button class="filter-btn" data-filter="web">Web Design</button>
+                <button class="filter-btn" data-filter="app">Web Apps</button>
+                <button class="filter-btn" data-filter="responsive">Responsive</button>
+                <button class="filter-btn" data-filter="other">IOT</button>
+            </div>
+
+            <div class="portfolio-grid">
+                <!-- Project 1 -->
+                <div class="portfolio-item" data-category="other">
+                    <div class="portfolio-img">
+                        <img src="images/WhatsApp Image 2025-12-28 at 21.44.35.jpeg" alt="Smart Road Sentinel">
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Smart Road Sentinel</h3>
+                        <p>IoT-based road safety system using ultrasonic sensors, MQ gas sensors, servo motors, and OLED displays for real-time monitoring of road conditions, detecting obstacles, and improving road safety.</p>
+                        <div class="portfolio-tags">
+                            <span>IoT</span>
+                
+                            <span>Sensors</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="portfolio-item" data-category="app">
+                    <div class="portfolio-img">
+                        <img src="/images/Screenshot 2026-01-05 233400.png" alt="Spotify Clone">
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Spotify Clone</h3>
+                        <p>Music & podcast web app with custom audio player UI, featuring playlists and user authentication.</p>
+                        <div class="portfolio-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                            <span>React</span>
+                            <span>API</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="portfolio-item" data-category="responsive">
+
+                    <div class="portfolio-img">
+                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1715&q=80" alt="Portfolio Website">
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Portfolio Website</h3>
+                        <p>A responsive portfolio website showcasing projects, skills, and contact information with modern design.</p>
+                        <div class="portfolio-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                            <span>Responsive</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="portfolio-item" data-category="web">
+                    <div class="portfolio-img">
+                        <img src="/images/pm.png" alt="Project Management System">
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Project Management System</h3>
+                        <p>A responsive web-based Project Management System built to streamline project planning and execution. It enables users to create projects, assign tasks, track progress, and manage deadlines through a clean and intuitive interface. The system improves team coordination, productivity, and project transparency.</p>
+                        <div class="portfolio-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                            <span>Responsive</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2>Get In Touch</h2>
+
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Let's Work Together</h3>
+                    <p>I'm currently available for freelance work or internship opportunities. Feel free to reach out if you have a project you'd like to discuss.</p>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div>
+                            <h4>Email</h4>
+                            <p>rutikkadam2906@gmail.com</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>+91 9137563793>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div>
+                            <h4>Location</h4>
+                            <p>Thane, India</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" class="form-control" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Your Email</label>
+                            <input type="email" id="email" class="form-control" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" class="form-control" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" class="form-control" required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="logo">Rutik<span>Kadam</span></div>
+
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-github"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-codepen"></i></a>
+                </div>
+            </div>
+
+            <div class="copyright">
+                <p>&copy; 2026 Rutik Kadam. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

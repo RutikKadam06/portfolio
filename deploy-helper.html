@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deploy Your Portfolio - Quick Links</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            margin: 0;
+            padding: 20px;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .container {
+            background: white;
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            max-width: 600px;
+            text-align: center;
+        }
+        h1 {
+            color: #333;
+            margin-bottom: 10px;
+        }
+        .subtitle {
+            color: #666;
+            margin-bottom: 30px;
+        }
+        .deploy-btn {
+            display: inline-block;
+            background: #2563eb;
+            color: white;
+            padding: 15px 30px;
+            margin: 10px;
+            border-radius: 10px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            border: none;
+            cursor: pointer;
+        }
+        .deploy-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 20px rgba(37, 99, 235, 0.3);
+        }
+        .netlify { background: #00c7b7; }
+        .vercel { background: #000; }
+        .github { background: #333; }
+        .instructions {
+            background: #f8fafc;
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 30px;
+            text-align: left;
+        }
+        .step {
+            margin: 10px 0;
+            padding: 10px;
+            background: white;
+            border-radius: 5px;
+            border-left: 4px solid #2563eb;
+        }
+        .emoji {
+            font-size: 1.2em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🚀 Deploy Your Portfolio Now!</h1>
+        <p class="subtitle">Choose a platform and go live in 2 minutes</p>
+        
+        <div>
+            <a href="https://netlify.com" target="_blank" class="deploy-btn netlify">
+                <span class="emoji">⚡</span> Deploy on Netlify (Recommended)
+            </a>
+            <a href="https://vercel.com" target="_blank" class="deploy-btn vercel">
+                <span class="emoji">🔥</span> Deploy on Vercel
+            </a>
+            <a href="https://github.com" target="_blank" class="deploy-btn github">
+                <span class="emoji">📄</span> Deploy on GitHub Pages
+            </a>
+        </div>
+
+        <div class="instructions">
+            <h3>📋 Quick Instructions:</h3>
+            
+            <div class="step">
+                <strong>For Netlify (Easiest):</strong><br>
+                1. Click the Netlify button above<br>
+                2. Sign up (free)<br>
+                3. Drag your entire "portfolio" folder to the page<br>
+                4. Done! Your site is live! 🎉
+            </div>
+            
+            <div class="step">
+                <strong>For Vercel:</strong><br>
+                1. Click Vercel button above<br>
+                2. Sign up with GitHub<br>
+                3. Click "New Project" → Upload folder<br>
+                4. Deploy! 🚀
+            </div>
+            
+            <div class="step">
+                <strong>For GitHub Pages:</strong><br>
+                1. Create GitHub account<br>
+                2. Create repository called "portfolio"<br>
+                3. Upload all files<br>
+                4. Go to Settings → Pages → Deploy from main branch
+            </div>
+        </div>
+
+        <p style="margin-top: 30px; color: #666;">
+            <strong>Your portfolio folder is ready!</strong><br>
+            Just upload the entire folder to any platform above.
+        </p>
+    </div>
+</body>
+</html>
